@@ -1,4 +1,4 @@
-public interface ListPrototype<E> {
+public interface CustomArrayList<E> {
     void add(E element);
 
     E get(int index);

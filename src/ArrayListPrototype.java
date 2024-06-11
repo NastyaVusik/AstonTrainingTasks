@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class ArrayListPrototype<E> implements ListPrototype<E> {
+public class ArrayListPrototype<E> implements CustomArrayList<E> {
     private E[] elementsArr;
     private static final int DEFAULT_CAPACITY = 10;
     private int size;
